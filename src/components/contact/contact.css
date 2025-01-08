@@ -1,0 +1,108 @@
+@media(max-width:430px){
+    #top_contact{
+     max-height: 100vh;
+    }
+#left_contact{
+    position: absolute;
+    height: 60vh;
+    width: 60vw;
+    top: 18vh;
+    left: 18vw;
+}
+#left_contact div input{
+
+    width: 26vw;
+    font-size: 12px;
+    top: 5vh;
+}
+#first_input{
+    top: 4vh;
+}
+#second_input{
+    top: 8vh;
+}
+#third_input{
+    top: 12vh;
+}
+#left_contact div p{
+    width: 50vw;
+    height: 20vh;
+    font-size: 12px;
+    top: 5vh;
+}
+#left_contact button{
+    width: 22vw;
+    height: 6vh;
+    border-radius: 5px;
+    font-size: 12px;
+    top: 14vh;
+    left:16vw;
+}
+#left_contact h2{
+   font-size: 16px;
+   top: 0;
+}
+#contact_1,#contact_2,#contact_3{
+width: 25vw;
+
+}
+#contact_1 h3,#contact_2 h3,#contact_3 h3{
+width: 25vw;
+font-size: 12px;
+}
+#contact_1{
+width: 25vw;
+top: 2vh;
+left: 16vw;
+}
+#contact_2{
+width: 25vw;
+top: 2vh;
+margin-left: 30vw;
+}
+#contact_3{
+    display: none;
+width: 25vw;
+top: 2vh;
+}
+#right_contact{
+    position: absolute;
+/* display: none; */
+top: 80vh;
+left: 40vw;
+max-width: 100vw;
+display: flex;
+justify-content: center;
+height: 20vh;
+}
+#right_contact div{
+height: 8vh;
+
+}
+#right_contact div span:last-child h3{
+font-size: 10px;
+}
+#right_contact div:first {
+margin-right: 24vw;
+height: 8vh;
+width: 4vw;
+}
+#right_contact div span:last-child p{
+font-size: 9px;
+}
+
+#email span:last-child{
+   width: 6vw;
+   background-color: red;
+   padding-right: 20vw;
+
+}
+#main_contact{
+    width: 100vw;
+    height:92vh;
+}
+/* #email span p{
+    max-width: 20vw;
+    background-color: yellow;
+} */
+}

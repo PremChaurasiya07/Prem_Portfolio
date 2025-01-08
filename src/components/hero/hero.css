@@ -1,0 +1,77 @@
+@keyframes spin
+ { 0% { transform: rotate(0deg); 
+        border-color:red ;   }
+
+  50% { transform: rotate(360deg);
+    border-color:teal ;  }
+  100% { transform: rotate(0deg);
+    border-color:blue ; }
+}
+#frame{
+    border: 4px dashed red;
+  /* border-top: 6px dashed blue; */
+  animation: spin 4s linear infinite;
+}
+
+@media(max-width:430px){
+#main{
+    display: block;
+    width: 100vw;
+    max-height: 40vh;
+   margin-top: 45vh;
+ 
+
+}
+#left,#right{
+    padding: 0;
+    margin: 0;
+}
+#left h3{
+    font-size: 13px;
+    width: 100vw;
+    padding-left:4vw;
+    
+}
+#left h2{
+    width: 100vw;
+    font-size: 26px;
+    padding-left:4vw;
+}
+#left p{
+    width: 98vw;
+    font-size: 12px;
+    padding-left:4vw;
+}
+#right_home{
+    position: absolute;
+    top: 10vh;
+}
+#frame{
+    position: relative;
+    left: 75%;
+    width: 40vw;
+    height: 40vw;
+    
+}
+#contact{
+   position: relative;
+
+  margin-top: 12vh;
+}
+#contact button{
+    width: 28vw;
+    height: 7vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    font-size: 11px;
+    margin-left: 24vw;
+
+} 
+#contact ul{
+    position: relative;
+    left: 14vw;
+}
+#contact ul li{
+    padding-left: 4vw;
+}
+}

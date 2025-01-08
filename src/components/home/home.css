@@ -1,0 +1,5 @@
+@media(max-width:425px){
+    #main_div{
+      max-height: 100vh;
+    }
+  }

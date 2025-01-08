@@ -1,0 +1,63 @@
+ @media(max-width:430px){
+#project_left div:first-child h1{
+    font-size: 28px;
+}
+#project_left div:first-child h2{
+    font-size: 16px;
+    top: 3vh;
+
+}
+#project_left div:first-child p{
+    font-size: 14px;
+    top: 1vh;
+    width: 56vw;
+
+}
+#project_left div:first-child p:last-child{
+    font-size: 12px;
+    top: 4vh;
+    width: 56vw;
+    line-height: 17px;
+
+}
+#project_left div:first-child{
+    top: 12vh;
+    right: 9vw;
+    width: 56vw;
+    
+}
+#project_left div:last-child{
+    right: 4vw;
+    width: 12vw;
+    height: 10vh;
+    border-radius: 100%;
+    top: 16vh;
+    padding-top: 2vh;
+    margin-left: 2vw;
+}
+
+#right_project {
+    width: 40vw;
+}
+#right_project img{
+    left: 9vw;
+    top: 24vh;
+    height: 50vh;
+  
+}
+#hr{
+    top: 16vh;
+    right: 8vw;
+    width: 50vw;
+}
+#right_project div{
+    left: 10vw;
+    top: 30vh;
+}
+#right_project div button{
+    width: 8vw;
+    height: 6vh;
+    margin-left: 3vw;
+    padding-top: 0.5vh;
+}
+}

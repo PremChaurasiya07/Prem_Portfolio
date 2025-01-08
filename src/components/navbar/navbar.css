@@ -1,0 +1,18 @@
+@media(max-width:475px){
+    #logo{
+        font-size: 28px;
+        margin-right: 50vw;
+        margin-top: -5vh;
+    }
+    #hire-btn{
+        display: none;
+    }
+    #icon{
+        display: block;
+        margin-top: -1.6vh;
+    }
+    #ul{
+        display: none;
+    }
+}
+
