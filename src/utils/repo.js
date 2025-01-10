@@ -1,4 +1,5 @@
 import img1 from '../../public/img1.png'
+import img2 from '../../public/img2.png'
 export const repo=[
     {
         id:"01",
@@ -12,7 +13,7 @@ export const repo=[
     },
     {
         id:"02",
-        img:'public/img2.png',
+        img:img2,
         name:"Ai Interview Webapp",
         des:'This was a college project done with me teamates.It help the candidate to prepare for the interview by asking the field of interview by user and depending upon that question is asked from gemini api.Mic intergration is there to record user answer, after interview review is also given.',
         tech:'Next.js, dizzleorm, tailwind, Gemini api, etc.',
