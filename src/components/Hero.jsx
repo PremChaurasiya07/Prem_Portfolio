@@ -24,7 +24,7 @@ const Hero = () => {
        <img src={profile}  className='relative top-[6.5vh] right-[59.6vh] w-[60vw] h-[57vh]' /> 
       
       </div>
-      <div id='contact' className=' text-white relative top-[-15vh] left-[15vw] w-[40vw] font-mono font-semibold flex justify-center '>
+      <div id='contact' className=' text-white relative top-[-3vh] left-[15vw] w-[40vw] font-mono font-semibold flex justify-center '>
         <button className=' bg-black w-[10vw] h-[6vh]  rounded-lg text-[14px] tracking-wider mr-[6vw] transition-all border-x-2 border-y-2 border-teal-500 hover:bg-teal-500'>Download CV</button>
         <ul className='flex mr-[8vw]'>
             <li className='pl-[3vw] cursor-pointer transition-all' onMouseEnter={()=>seticon1(!icon1)} onMouseLeave={()=>seticon1(!icon1)}><FaGithub size={33}  color={!(icon1)?'teal':'white'}/></li>
