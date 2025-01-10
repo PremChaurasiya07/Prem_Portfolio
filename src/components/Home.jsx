@@ -1,5 +1,5 @@
 import React from 'react'
-import '../components/hero/hero.css'
+import '../css/hero.css'
 import Navbar from './Navbar'
 import Hero from './Hero'
 const Home = () => {

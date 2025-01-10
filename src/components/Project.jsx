@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Project_hero from './Project_hero'
-import '../components/work/work.css'
+import '../css/work.css'
 const Project = () => {
   return (
     <div>

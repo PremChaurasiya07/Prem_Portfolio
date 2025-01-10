@@ -48,15 +48,25 @@
 }
 #frame{
     position: relative;
-    left: 75%;
-    width: 40vw;
-    height: 40vw;
+    top: -6vh;
+    left: 14vw;
+    width: 55vw;
+    height: 55vw;
     
+}
+#profileimg{
+ 
+    width: 48vw;
+    height: 34vh;
+    position: relative;
+ left: 26.7vw;
+ top: -74.5vh;
+   z-index: 1;
 }
 #contact{
    position: relative;
 
-  margin-top: 12vh;
+  margin-top: 1vh;
 }
 #contact button{
     width: 28vw;

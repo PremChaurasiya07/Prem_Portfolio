@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Resume_hero from './Resume_hero'
-import '../components/resume/resume.css'
+import '../css/resume.css'
 
 const Resume = () => {
   return (

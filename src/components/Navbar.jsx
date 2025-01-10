@@ -2,7 +2,7 @@ import React from 'react'
 import { easeInOut, motion } from "motion/react"
 import { animate, spring } from 'motion'
 import { ImCross } from "react-icons/im";
-import '../components/navbar/navbar.css'
+import '../css/navbar.css'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
