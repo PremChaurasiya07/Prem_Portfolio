@@ -40,7 +40,7 @@
     }
     #right_div div{
         width: 28vw;
-        text-wrap:wrap ;
+        /* text-wrap:wrap ; */
         left: -6vw;
         height: 20vh;
        
