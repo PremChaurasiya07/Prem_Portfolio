@@ -63,7 +63,7 @@ const [icon8, seticon8] = useState(false);
           <h2 className='text-white text-[28px] font-medium relative top-[-22vh]'>My Skills</h2>
           <div id='box' className='w-[30vw] absolute top-[-7.5vh] h-[51vh] rounded-xl flex'>
             <div>
-            <div className='w-[10vw]  h-[17vh] bg-black border mr-[0.5vw] mb-[1vh] flex justify-center pt-[3vh] transition-all ' onMouseEnter={()=>seticon1(!icon1)} onMouseLeave={()=>seticon1(icon1)} ><FaReact color={(icon1)?'teal':'white'} size={70} /></div>
+            <div className='w-[10vw]  h-[17vh] bg-black border mr-[0.5vw] mb-[1vh] flex justify-center pt-[3vh] transition-all ' onMouseEnter={()=>seticon1(!icon1)} onMouseLeave={()=>seticon1(!icon1)} ><FaReact color={(icon1)?'teal':'white'} size={70} /></div>
             <div className='w-[10vw] h-[17vh]  bg-black border mb-[1vh] flex justify-center pt-[3vh]' onMouseEnter={()=>seticon2(!icon2)} onMouseLeave={()=>seticon2(!icon2)} ><SiExpress color={(icon2)?'teal':'white'} size={70} /></div>
             <div className='w-[10vw] h-[17vh]  bg-black border flex justify-center pt-[3vh]' onMouseEnter={()=>seticon3(!icon3)} onMouseLeave={()=>seticon3(!icon3)} ><IoLogoNodejs color={(icon3)?'teal':'white'} size={70} /></div>
             </div>
