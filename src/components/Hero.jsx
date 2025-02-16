@@ -4,6 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { CgMail } from "react-icons/cg";
 import profile from '../../public/profile_img.png'
+import profile1 from '../../public/profile.png'
 const Hero = () => {
   const [icon1,seticon1] = useState(false);
   const [icon2,seticon2] = useState(false);
@@ -18,10 +19,10 @@ const Hero = () => {
             <p  className='pt-[1vh] text-[17px]'>I am a passionate Full Stack Web Developer with a strong background in both front-end and back-end development. My expertise lies in crafting dynamic, responsive, and user-friendly websites and applications.</p>
         </div>
         <div id='right_home' className='w-[40vw]'>
-            <div id='frame' className='border border-teal-400 h-[63vh] w-[30vw] rounded-full mt-[8vh] ml-[10vw] border-x-8 border-y-8 border-dashed'>
+            <div id='frame' className='border border-teal-400 h-[62vh] w-[30vw] rounded-full mt-[8vh] ml-[10vw] border-x-8 border-y-8 border-dashed'>
         </div>
         </div>
-       <img id='profileimg' src={profile}  className='relative top-[6.5vh] right-[59.6vh] w-[60vw] h-[57vh]' /> 
+       <img id='profileimg' src={profile1}  className='relative top-[10vh] right-[59.6vh] w-[60vw] h-[57vh]' /> 
       
       </div>
       <div id='contact' className=' text-white relative top-[-3vh] left-[15vw] w-[40vw] font-mono font-semibold flex justify-center '>
